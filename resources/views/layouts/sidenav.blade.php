@@ -42,5 +42,11 @@
                 </a>
             </div><!--- Closing of nav_list side_nav-list nav-offboard  --->
         </div><!--- Closing of side-nav --->
+
+        <a href="{{ url('Mainpage/signout') }}" class="nav_link"> 
+         <i class='bi bi-box-arrow-left nav_icon'></i> 
+          <span class="nav_name">SignOut</span> 
+        </a>
+        
     </nav>
 </div><!--- Closing of l-navbar --->

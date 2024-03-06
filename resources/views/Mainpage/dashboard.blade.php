@@ -15,7 +15,7 @@
                                 <i class="bi bi-people-fill text-success fs-1 float-left"></i>
                             </div>
                             <div class="media-body text-right">
-                                <h2>10</h2>
+                                <h2>0</h2>
                                 <span class="fs-3">Employees</span>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
     <div class="col-md-6">
         <div class="card">
             <div class="card-body d-flex justify-content-center align-content-center">
-                <canvas id="barChart" width="400" height="300"></canvas>
+                <canvas id="barChart" width="500" height="300"></canvas>
             </div>
         </div>
     </div>
@@ -89,12 +89,12 @@
     var barChart = new Chart(ctxBar, {
         type: 'bar',
         data: {
-            labels: ['Label 1', 'Label 2', 'Label 3', 'Label 4'],
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
             datasets: [{
-                label: 'Bar Chart Example',
-                data: [10, 20, 30, 40],
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
+                label: 'Employee Terminated',
+                data: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60],
+                backgroundColor: 'rgba(220, 53, 9, 0.2)',
+                borderColor: 'rgba(220, 53, 9, 1)',
                 borderWidth: 1
             }]
         },
@@ -113,10 +113,10 @@
     var donutChart = new Chart(ctxDonut, {
         type: 'doughnut',
         data: {
-            labels: ['Label 1', 'Label 2', 'Label 3'],
+            labels: ['Terminated', 'Offboarding', 'Employees'],
             datasets: [{
-                data: [30, 40, 30],
-                backgroundColor: ['rgba(255, 99, 132, 0.8)', 'rgba(54, 162, 235, 0.8)', 'rgba(255, 205, 86, 0.8)'],
+                data: [30, 30, 30],
+                backgroundColor: ['rgba(220, 53, 9, 0.8)', 'rgba(25, 135, 84, 0.8)', 'rgba(255, 205, 86, 0.8)'],
                 hoverOffset: 4
             }]
         },
