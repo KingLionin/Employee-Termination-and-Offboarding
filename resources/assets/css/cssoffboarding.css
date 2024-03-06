@@ -1,0 +1,45 @@
+/* For the table */
+.tbl-offboarding {
+  border-radius: 10px;
+}
+
+.offboarding-card {
+  margin: 5rem 0 5rem 0;
+}
+
+/* For the heading in the dashboard */
+.whr-offboarding-heading {
+  margin: 0 0 0 10px;
+  font-weight: 700;
+}
+
+/* Add your custom styles here */
+#offboardingTableView {
+  margin: 20px;
+}
+
+/* For the pagination */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* For the pagination list */
+.pagination li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* For the search bar */
+#offboardingSearchInput {
+  margin: 0 1rem 0 0;
+  width: 30rem;
+}
+

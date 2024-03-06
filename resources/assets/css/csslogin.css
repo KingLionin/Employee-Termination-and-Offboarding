@@ -1,0 +1,48 @@
+/* Global Elements */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For the card container of the login form and image */
+.container {
+    max-width: 780px;
+    max-height: 700px;
+    margin: 80px 0 0 0;
+}
+
+/* For the image inside the card */
+.image-container {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*For the image properties */
+.image-container img {
+    padding: 0px;
+    margin: 0px;
+    width: 500px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+/* For Sign-In Text */
+.login-title {
+    font-weight: bold;
+}
+
+/* For the Sign-In Wrapper */
+.sign-in-wrapper {
+    margin: 60px 0 0 0;
+}
+
+/* For the container of the eye */
+.eye-container {
+    cursor: pointer;
+}
+
+.forgot-password-link {
+    margin: 0 0 0 2rem;
+}

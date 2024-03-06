@@ -1,0 +1,39 @@
+/* For the table */
+.tbl-messages {
+  border-radius: 10px;
+}
+
+.messages-card {
+  margin: 0;
+}
+
+.message-annoucement-card {
+  margin: 5rem 0 0 0;
+}
+
+/* For the heading in the dashboard */
+.whr-messages-heading {
+  margin: 0 0 0 10px;
+  font-weight: 700;
+}
+
+/* From the contents of alert */
+.acontainer {
+  margin: 17px 0 0 10px;
+}
+
+/* From the  icon of the messages */
+.message-icon {
+  font-size: 2rem;
+  margin: 0 10px 0 0;
+}
+
+/* Modal Fade */
+.fade {
+  min-width: 100%;
+}
+
+/* From the message card */
+.message-card {
+  margin: 5rem 0 0 0;
+}
